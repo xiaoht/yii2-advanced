@@ -1,6 +1,7 @@
 <?php
 namespace backend\controllers;
 
+use common\services\Tools;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -60,6 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        Tools::addLog(111 , '/logs/error.log');
         return $this->render('index');
     }
 
