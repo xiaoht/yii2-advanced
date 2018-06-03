@@ -31,7 +31,7 @@ return [
     'Assigned' => 'Assigned',
     'Create' => '创建',
     'Update' => '更新',
-    'Roles' => 'Roles',
+    'Roles' => '角色',
     'Create New' => '创建新',
     'Create Role' => '创建角色',
     'Name' => 'Name',
